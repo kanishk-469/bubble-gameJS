@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+ 
+  width:100%;
+  height:100%;
+  background-color: rgb(183, 221, 183);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.panel{
+  width:80%;
+  height:80%;
+  background-color: rgb(255, 255, 255);
+  border-radius:8px;
+  overflow: hidden;
+}
+
+.ptop{
+  width:100%;
+  height: 60px;
+  background-color: rgb(6, 84, 6);
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap:10vw;
+ 
+}
+.ptop-content{
+  /* width:100%;
+  height:100%; */
+  display:flex;
+  align-items:center;
+  color:white;
+  
+  
+ 
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:25px;
+  height:25px;
+  background-color: white;
+  border-radius:3px;
+  color:rgb(62, 98, 7);
+  margin-left: 7px;
+}
+
+.pbtm{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: calc(100% - 60px);
+  background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+
+.bubble{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width:34px;
+  height:34px;
+  border-radius: 17px;
+  background-color: rgb(6, 84, 6);
+  margin: 6px 5px;
+  color:white;
+  
+}
+
+.bubble:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+
+.game-over-display{
+ 
+}
